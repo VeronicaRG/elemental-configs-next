@@ -7,3 +7,7 @@ export const Wrapper = styled.div`
 export const Title = styled.h1`
   color: ${({ theme }) => theme.colors.primary};
 `
+
+export const Button = styled.button`
+  color: ${({ theme }) => theme.colors.primary};
+`
