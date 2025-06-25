@@ -6,7 +6,8 @@ import * as S from './styles'
 export default function Principal() {
   return (
     <S.Wrapper>
-      <S.Title>Bem-vindo</S.Title>
+      <S.Title>styled componet and theme</S.Title>
+      <S.Title>eslint</S.Title>
     </S.Wrapper>
   )
 }
