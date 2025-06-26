@@ -1,21 +1,14 @@
-'use client'
+import { ReactNode } from 'react'
+import Providers from './providers'
 
-import { ThemeProvider } from 'styled-components'
-import { theme } from '../styles/theme'
-import '../assets/i18n'
-
-export default function RootLayout({
-  children,
-}: Readonly<{
-  children: React.ReactNode;
-}>) {
+export default function RootLayout({ children }: { children: ReactNode }) {
   return (
-      <html lang="es">
+    <html lang="es">
       <body>
-        <ThemeProvider theme={theme}>
+        <Providers>
           {children}
-        </ThemeProvider>
+        </Providers>
       </body>
     </html>
-  );
+  )
 }
