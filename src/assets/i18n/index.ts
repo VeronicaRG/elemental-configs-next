@@ -6,7 +6,7 @@ import es from './locales/es.json'
 import ptBR from './locales/pt-BR.json'
 
 i18n.use(initReactI18next).init({
-  lng: 'es', 
+  lng: 'es',
   fallbackLng: 'en',
   resources: {
     en: { translation: en },

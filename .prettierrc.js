@@ -5,4 +5,4 @@ module.exports = {
   arrowParens: 'always',
   semi: false,
   printWidth: 100,
-};
+}
